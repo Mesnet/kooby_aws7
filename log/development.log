@@ -1,0 +1,63 @@
+Started GET "/" for 127.0.0.1 at 2018-05-21 15:31:26 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/assets/toilet_w-3242378122da6a718e3e0b7fa25c5ff0bdac56b2a03ae45117f2d50247c84506.png"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Mesnet/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Mesnet/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 10ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-21 15:31:39 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Mesnet/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Mesnet/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 12ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-21 19:44:55 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Mesnet/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Mesnet/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb (2.5ms)
+Completed 200 OK in 20ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-21 19:45:01 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Mesnet/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Mesnet/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 10ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
